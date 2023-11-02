@@ -1,12 +1,15 @@
 require('babel-register')
 require('babel-polyfill')
-
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+// path learn cluster odor excuse among pink birth truly season just inhale
 module.exports = {
     networks: {
         development: {
-            host: "8545-sivajisj2-web3sj-o0r9ntdq2ha.ws-us105.gitpod.io",
-            port: 8545, 
-            network_id: '*', // Or specify the network ID you want to connect to
+            provider: () => new HDWalletProvider({
+                mnemonic:"path learn cluster odor excuse among pink birth truly season just inhale",
+                providerOrUrl: 'https://8545-sivajisj2-defistakingap-7nqwmozsg2c.ws-us105.gitpod.io',
+              }),
+              network_id: '*', // Or specify the network ID you want to connect to
         },
         // Add other networks if necessary
     },

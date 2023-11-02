@@ -5329,12 +5329,12 @@
     "31337": {
       "events": {},
       "links": {},
-      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
-      "transactionHash": "0x604768a1be76b96554734707bac060bfe0ad00e0b52312ad0447ce292860e4ca"
+      "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+      "transactionHash": "0x3a83a0a4a18744100719af81a03b530b9c0941a92e390041acb245b73ec4d08e"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-11-02T07:09:12.025Z",
+  "updatedAt": "2023-11-02T07:16:30.265Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

@@ -12,7 +12,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -25,7 +26,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -38,7 +40,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -51,7 +54,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.22+commit.4fc1097e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/Tether.sol\":\"Tether\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/Tether.sol\":{\"keccak256\":\"0x3fe142a9b20dac6d25a5c00444195d31005316e797c80771ab34fa8ce8e07234\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d58d999000372cd40e18ef29a387ff4e270647d6cd96836d1a4405863ac91719\",\"dweb:/ipfs/QmdVwTTsGTaurY7XE51yzwVUeNCda3NaM1Biu8aTMWNXNd\"]}},\"version\":1}",
@@ -5640,9 +5644,17 @@
     "name": "solc",
     "version": "0.8.22+commit.4fc1097e.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "31337": {
+      "events": {},
+      "links": {},
+      "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "transactionHash": "0xcf1e44ebf095511309f2676ddd1e668007d05a2ba17e5557267eaf321a83ac74"
+    }
+  },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-11-02T01:06:41.833Z",
+  "updatedAt": "2023-11-02T03:03:05.011Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
 pragma solidity ^0.8.9;
 
-contract Tether {
-    string public name = "Mock Tether Token";
-    string public symbol = "USDT";
-    uint256 public totalSupply = 1000000000000000000000000;
+contract RWD {
+    string public name = "Reward Token";
+    string public symbol = "RWD";
+    uint256 public totalSupply = 1000000000000000000000000; // 1 millions tokens
     uint256 public decimals = 18;
 
     event Transfer(address indexed _from, address indexed _to, uint256 _value);

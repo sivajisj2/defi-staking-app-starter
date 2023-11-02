@@ -2304,12 +2304,12 @@
     "31337": {
       "events": {},
       "links": {},
-      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
-      "transactionHash": "0x4bd0a7134cc2973cfc4956e8289565a327c98cb2c7a5e9410d7a70102d064511"
+      "address": "0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1",
+      "transactionHash": "0x905d918fed31f5b72196f630ef23d31c86c83ef5d92b591280baa8ae8ab47b3b"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-11-02T07:16:30.142Z",
+  "updatedAt": "2023-11-02T08:10:52.574Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

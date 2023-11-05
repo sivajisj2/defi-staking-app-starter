@@ -6288,12 +6288,12 @@
     "31337": {
       "events": {},
       "links": {},
-      "address": "0x9E545E3C0baAB3E08CdfD552C960A1050f373042",
-      "transactionHash": "0x898708205c1444808e33b31a22a9551b1507351be7452c7b4ef370ce6256c89d"
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      "transactionHash": "0x709a4e17d610b030ba75addd79c5038451e7682531f7b3005971b94e28f8589f"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-11-04T14:40:17.006Z",
+  "updatedAt": "2023-11-05T12:55:47.018Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
